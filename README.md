@@ -3,10 +3,11 @@
 Sandboxed execution environment for MCP Clients (ChatGPT, Gemini, Claude) to execute code on Stripe's servers using IOI Isolate.
 
 Related reading:
-[https://blog.cloudflare.com/code-mode/](https://blog.cloudflare.com/code-mode/)
-[https://www.anthropic.com/engineering/code-execution-with-mcp](https://www.anthropic.com/engineering/code-execution-with-mcp)
-[go/scaling-mcp](https://docs.google.com/document/d/1YyzD3A_110F1gHU4EcBNXBhVdTVw4zPLtD0NNAqKPhM/edit?tab=t.0)
-[go/mcp-code-execution](http://go/mcp-code-execution)
+
+* [https://blog.cloudflare.com/code-mode/](https://blog.cloudflare.com/code-mode/)
+* [https://www.anthropic.com/engineering/code-execution-with-mcp](https://www.anthropic.com/engineering/code-execution-with-mcp)
+* [go/scaling-mcp](https://docs.google.com/document/d/1YyzD3A_110F1gHU4EcBNXBhVdTVw4zPLtD0NNAqKPhM/edit?tab=t.0)
+* [go/mcp-code-execution](http://go/mcp-code-execution)
 
 ## Problem
 
