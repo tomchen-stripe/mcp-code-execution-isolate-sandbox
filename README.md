@@ -1,6 +1,6 @@
-# MCP Code Execution Sandbox with IOI Isolate
+# MCP Code Execution POC: Sandboxing code execution with IOI Isolate
 
-Sandboxed execution environment for MCP Clients (ChatGPT, Gemini, Claude) to execute code on Stripe's servers using IOI Isolate.
+This is a POC for how Stripe could sandbox MCP Client-generated code within Stripe's MCP Gateway. Traditional Docker Containers are too heavy weight/expensive/slow. This is a sandboxed execution environment using IOI Isolate.
 
 Related reading:
 
