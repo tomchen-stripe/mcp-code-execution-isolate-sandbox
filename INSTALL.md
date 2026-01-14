@@ -51,12 +51,14 @@ git clone https://github.com/tomchen-stripe/mcp-code-execution-isolate-sandbox.g
 
 # Go to the sandbox directory (adjust path to where you have this repo)
 cd ~/stripe/ioi_sandbox/sandbox
-
-# Run security isolation test
-./run-sandbox.sh test-isolate.js
+npm install
 
 # Run Stripe API test (requires STRIPE_API_KEY in .env)
 SHARE_NET=1 ./run-sandbox.sh test-stripe.js
+
+# Run security isolation test to confirm test-stripe.js doesn't have access to the parent's filesystem
+./run-sandbox.sh test-isolate.js
+
 ```
 
 Both tests should pass.
